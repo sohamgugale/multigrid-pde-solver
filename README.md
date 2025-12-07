@@ -1,3 +1,4 @@
+cat > README.md << 'EOF'
 # Parallel Multigrid/CUDA Solver for High-Dimensional Option Pricing PDEs
 
 A high-performance numerical PDE solver implementing geometric multigrid methods with CPU (MPI/OpenMP) and GPU (CUDA) acceleration for pricing multi-dimensional financial derivatives.
@@ -45,4 +46,21 @@ cmake .. -DUSE_CUDA=ON      # Enable CUDA (default: OFF, requires Linux/NVIDIA G
 ```
 
 ## Project Structure
+multigrid-pde-solver/
+├── src/              # Source files
+├── include/          # Header files
+├── tests/            # Unit tests
+├── benchmarks/       # Performance benchmarks
+├── scripts/          # Python analysis scripts
+├── results/          # Output plots and logs
+└── docs/             # Documentation
 
+## Documentation
+
+- [Implementation Guide](docs/implementation.md)
+- [Performance Results](docs/performance.md)
+- [API Reference](docs/api.md)
+
+## Author
+
+Your Name - [GitHub](https://github.com:sohamgugale)
