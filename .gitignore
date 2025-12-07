@@ -1,0 +1,50 @@
+# Build artifacts
+build/
+bin/
+lib/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE
+.vscode/settings.json
+.vscode/.cmaketools.json
+.vscode/c_cpp_properties.json
+.DS_Store
+*.swp
+*.swo
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+venv/
+env/
+
+# Results (optional - commit some reference plots)
+results/logs/*.log
+*.out
+
+# Profiling
+*.prof
+*.perf
+gmon.out
+
+# Large data files
+*.h5
+*.hdf5
+data/*.bin
+data/*.dat
