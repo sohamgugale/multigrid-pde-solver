@@ -53,14 +53,6 @@ multigrid-pde-solver/
 ├── benchmarks/       # Performance benchmarks
 ├── scripts/          # Python analysis scripts
 ├── results/          # Output plots and logs
-└── docs/             # Documentation
 
-## Documentation
 
-- [Implementation Guide](docs/implementation.md)
-- [Performance Results](docs/performance.md)
-- [API Reference](docs/api.md)
 
-## Author
-
-Your Name - [GitHub](https://github.com:sohamgugale)
